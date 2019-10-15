@@ -178,7 +178,8 @@ header {
 p,
 em,
 h4,
-menu {
+menu,
+ol {
     margin: 0;
     padding: 0;
     border: 0;
