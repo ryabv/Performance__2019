@@ -823,6 +823,28 @@ footer {
     .card-icon--stats {
         height: 16px;
     }
+    .card-icon--robot-cleaner {
+        height: 21.14px;
+    }
+    .card-icon--router {
+        height: 33px;
+    }
+    .card-icon--thermal {
+        height: 35px;
+    }
+    .card-icon--ac {
+        width: 35px;
+        height: 30px;
+    }
+    .card-icon--fridge {
+        height: 43px;
+    }
+    .card-icon--cam {
+        height: 26.25px;
+    }
+    .card-icon--kettle {
+        height: 40.97px;
+    }
     .card-title {
         font-size: 14px;
         padding-left: 16px;
