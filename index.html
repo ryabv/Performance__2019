@@ -12,7 +12,7 @@
 <body>
     <header>
         <img class="header-logo" src="img/yd2.png">
-        <menu id="headerMenu" class="header-menu">
+        <menu class="header-menu">
             <a class="header-menu__link" href="cam.html">Видеонаблюдение</a>
             <a class="header-menu__link header-menu__link_active " href="index.html">События</a>
             <a class="header-menu__link">Сводка</a>
@@ -20,7 +20,7 @@
             <a class="header-menu__link">Сценарии</a>
         </menu>
 
-        <svg id="headerMenuSwitcher" class="header-menu__switcher" width="16px" height="14px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 14">
+        <svg class="header-menu__switcher" width="16px" height="14px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 14">
             <path fill="#333333" id="path-1_1_" class="st0" d="M0,1c0-0.5,0.4-1,1-1h14c0.6,0,1,0.4,1,1v0.7c0,0.5-0.4,1-1,1H1c-0.6,0-1-0.4-1-1V1z M0,6.3
             c0-0.5,0.4-1,1-1h14c0.6,0,1,0.4,1,1V7c0,0.5-0.4,1-1,1H1C0.4,8,0,7.6,0,7V6.3z M0,11.7c0-0.5,0.4-1,1-1h14c0.6,0,1,0.4,1,1v0.7
             c0,0.5-0.4,1-1,1H1c-0.6,0-1-0.4-1-1V11.7z"/>
@@ -292,8 +292,8 @@
             buttonsContainer.style.display = "none";
         }
 
-        document.getElementById("headerMenuSwitcher").addEventListener("click", function() {
-            document.getElementById("headerMenu").classList.toggle("header-menu_active");
+        document.getElementsByClassName("header-menu__switcher").addEventListener("click", function() {
+            document.getElementsByClassName("header-menu").classList.toggle("header-menu_active");
         });
     </script>
 </body>
