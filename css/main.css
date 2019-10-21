@@ -520,6 +520,9 @@ footer{
     padding-right:48px;
     padding-bottom:11px
 }
+.hum-block {
+    margin-left: 5px
+}
 .climat-block_data{
     font-weight:700
 }
@@ -639,6 +642,9 @@ footer{
         height:64px;
         line-height:64px;
         width:330px
+    }
+    .hum-block {
+        margin-left: 0
     }
     header{
         height:67px;
